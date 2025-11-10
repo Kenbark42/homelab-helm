@@ -1,0 +1,13 @@
+apiVersion: v2
+name: uptime-kuma
+description: A Helm chart for uptime-kuma homelab service
+type: application
+version: 0.1.0
+appVersion: "latest"
+keywords:
+  - homelab
+  - uptime-kuma
+home: https://homelab.local
+maintainers:
+  - name: homelab
+    email: admin@homelab.local

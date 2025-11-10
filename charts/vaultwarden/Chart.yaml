@@ -1,0 +1,13 @@
+apiVersion: v2
+name: vaultwarden
+description: A Helm chart for vaultwarden homelab service
+type: application
+version: 0.1.0
+appVersion: "latest"
+keywords:
+  - homelab
+  - vaultwarden
+home: https://homelab.local
+maintainers:
+  - name: homelab
+    email: admin@homelab.local

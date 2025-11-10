@@ -1,0 +1,15 @@
+# Helm
+*.tgz
+.helm/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.orig

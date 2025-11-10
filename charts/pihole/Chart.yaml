@@ -1,0 +1,16 @@
+apiVersion: v2
+name: pihole
+description: A Helm chart for Pi-hole DNS and ad blocking
+type: application
+version: 0.1.0
+appVersion: "latest"
+keywords:
+  - dns
+  - adblocking
+  - pihole
+home: https://pi-hole.net/
+sources:
+  - https://github.com/pi-hole/pi-hole
+maintainers:
+  - name: homelab
+    email: admin@homelab.local

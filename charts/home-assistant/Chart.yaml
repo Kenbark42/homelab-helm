@@ -1,0 +1,13 @@
+apiVersion: v2
+name: home-assistant
+description: A Helm chart for home-assistant homelab service
+type: application
+version: 0.1.0
+appVersion: "latest"
+keywords:
+  - homelab
+  - home-assistant
+home: https://homelab.local
+maintainers:
+  - name: homelab
+    email: admin@homelab.local

@@ -1,0 +1,13 @@
+apiVersion: v2
+name: portainer
+description: A Helm chart for portainer homelab service
+type: application
+version: 0.1.0
+appVersion: "latest"
+keywords:
+  - homelab
+  - portainer
+home: https://homelab.local
+maintainers:
+  - name: homelab
+    email: admin@homelab.local

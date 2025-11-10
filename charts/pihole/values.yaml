@@ -1,0 +1,111 @@
+# Default values for pihole
+replicaCount: 1
+
+image:
+  repository: pihole/pihole
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  create: true
+  automount: true
+  annotations: {}
+  name: ""
+
+podAnnotations: {}
+podLabels: {}
+
+podSecurityContext:
+  fsGroup: 999
+
+securityContext:
+  capabilities:
+    add:
+    - NET_ADMIN
+  runAsUser: 999
+  runAsGroup: 999
+
+# Pi-hole specific configuration
+pihole:
+  adminPassword: "admin"
+  timezone: "UTC"
+  webPassword: ""
+  dnsmasqListeningBehavior: "all"
+  dnssec: false
+  conditional_forwarding: false
+
+# DNS Configuration
+dns:
+  upstream1: "1.1.1.1"
+  upstream2: "1.0.0.1"
+
+# Web Interface Service
+service:
+  web:
+    type: ClusterIP
+    port: 80
+    nodePort: 30054
+  dns:
+    type: LoadBalancer
+    loadBalancerIP: "192.168.1.241"
+    ports:
+      tcp: 53
+      udp: 53
+
+# Ingress for web interface
+ingress:
+  enabled: true
+  className: "nginx"
+  annotations: {}
+  hosts:
+    - host: pihole.local
+      paths:
+        - path: /
+          pathType: Prefix
+  tls: []
+
+# Persistence for Pi-hole data
+persistence:
+  enabled: true
+  storageClass: ""
+  size: 1Gi
+  accessMode: ReadWriteOnce
+
+# Resource limits
+resources:
+  requests:
+    memory: "128Mi"
+    cpu: "100m"
+  limits:
+    memory: "512Mi"
+    cpu: "500m"
+
+# Health checks
+livenessProbe:
+  httpGet:
+    path: /admin/
+    port: http
+  initialDelaySeconds: 60
+  periodSeconds: 10
+
+readinessProbe:
+  httpGet:
+    path: /admin/
+    port: http
+  initialDelaySeconds: 5
+  periodSeconds: 5
+
+# Node selection
+nodeSelector: {}
+tolerations: []
+affinity: {}
+
+# Additional environment variables
+extraEnvVars: []
+
+# Additional volumes
+extraVolumes: []
+extraVolumeMounts: []

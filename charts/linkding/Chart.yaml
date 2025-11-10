@@ -1,0 +1,13 @@
+apiVersion: v2
+name: linkding
+description: A Helm chart for linkding homelab service
+type: application
+version: 0.1.0
+appVersion: "latest"
+keywords:
+  - homelab
+  - linkding
+home: https://homelab.local
+maintainers:
+  - name: homelab
+    email: admin@homelab.local
