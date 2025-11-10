@@ -3,7 +3,7 @@ entries:
   adguard-home:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-11-10T00:43:27.303506986-07:00"
+    created: "2025-11-10T01:05:16.109343481-07:00"
     description: A Helm chart for adguard-home homelab service
     digest: c2e9a35eb7c0858d99168f9ce89eb66147b1b2313cc9e30d87d501337419ae33
     home: https://homelab.local
@@ -16,12 +16,12 @@ entries:
     name: adguard-home
     type: application
     urls:
-    - https://YOUR_GITHUB_USERNAME.github.io/homelab-helm-charts/adguard-home-0.1.0.tgz
+    - https://Kenbark42.github.io/homelab-helm/adguard-home-0.1.0.tgz
     version: 0.1.0
   grafana:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-11-10T00:43:27.304520178-07:00"
+    created: "2025-11-10T01:05:16.110539135-07:00"
     description: A Helm chart for grafana homelab service
     digest: a1b79bcbf673071da9a8d181223fa091bda17225e4eca5da573421ab909fdca3
     home: https://homelab.local
@@ -34,12 +34,12 @@ entries:
     name: grafana
     type: application
     urls:
-    - https://YOUR_GITHUB_USERNAME.github.io/homelab-helm-charts/grafana-0.1.0.tgz
+    - https://Kenbark42.github.io/homelab-helm/grafana-0.1.0.tgz
     version: 0.1.0
   home-assistant:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-11-10T00:43:27.305424369-07:00"
+    created: "2025-11-10T01:05:16.111704845-07:00"
     description: A Helm chart for home-assistant homelab service
     digest: 4d5303286a2e91ee9325b16de8cbdc12c24979d319243e3131033970a6b53933
     home: https://homelab.local
@@ -52,12 +52,12 @@ entries:
     name: home-assistant
     type: application
     urls:
-    - https://YOUR_GITHUB_USERNAME.github.io/homelab-helm-charts/home-assistant-0.1.0.tgz
+    - https://Kenbark42.github.io/homelab-helm/home-assistant-0.1.0.tgz
     version: 0.1.0
   linkding:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-11-10T00:43:27.306392654-07:00"
+    created: "2025-11-10T01:05:16.11273872-07:00"
     description: A Helm chart for linkding homelab service
     digest: 0dc3b70f147ac6ab146da3cba526bb369565a670b8e82f4cf592a946a553657b
     home: https://homelab.local
@@ -70,12 +70,12 @@ entries:
     name: linkding
     type: application
     urls:
-    - https://YOUR_GITHUB_USERNAME.github.io/homelab-helm-charts/linkding-0.1.0.tgz
+    - https://Kenbark42.github.io/homelab-helm/linkding-0.1.0.tgz
     version: 0.1.0
   pihole:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-11-10T00:43:27.307448735-07:00"
+    created: "2025-11-10T01:05:16.113895819-07:00"
     description: A Helm chart for Pi-hole DNS and ad blocking
     digest: 795d4496fb8d7eafb59bb89a4b61452c0641070205305eb4625fe0663a65fce5
     home: https://pi-hole.net/
@@ -91,12 +91,12 @@ entries:
     - https://github.com/pi-hole/pi-hole
     type: application
     urls:
-    - https://YOUR_GITHUB_USERNAME.github.io/homelab-helm-charts/pihole-0.1.0.tgz
+    - https://Kenbark42.github.io/homelab-helm/pihole-0.1.0.tgz
     version: 0.1.0
   portainer:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-11-10T00:43:27.308364871-07:00"
+    created: "2025-11-10T01:05:16.114899454-07:00"
     description: A Helm chart for portainer homelab service
     digest: 596c31b706dcb7b4891d9dfd1a64c11fff4a435dbda0c22367ec08305ad54bb6
     home: https://homelab.local
@@ -109,12 +109,12 @@ entries:
     name: portainer
     type: application
     urls:
-    - https://YOUR_GITHUB_USERNAME.github.io/homelab-helm-charts/portainer-0.1.0.tgz
+    - https://Kenbark42.github.io/homelab-helm/portainer-0.1.0.tgz
     version: 0.1.0
   prometheus:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-11-10T00:43:27.311599412-07:00"
+    created: "2025-11-10T01:05:16.116041293-07:00"
     description: A Helm chart for prometheus homelab service
     digest: 19ca9fae05a5bd0d356f471ee7207a963fc49c2b678b107f382fcd31422d2ea9
     home: https://homelab.local
@@ -127,12 +127,12 @@ entries:
     name: prometheus
     type: application
     urls:
-    - https://YOUR_GITHUB_USERNAME.github.io/homelab-helm-charts/prometheus-0.1.0.tgz
+    - https://Kenbark42.github.io/homelab-helm/prometheus-0.1.0.tgz
     version: 0.1.0
   uptime-kuma:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-11-10T00:43:27.312692346-07:00"
+    created: "2025-11-10T01:05:16.117088168-07:00"
     description: A Helm chart for uptime-kuma homelab service
     digest: a7b858f368bf30ba5d534ccb8dc8a2856728268f928162983ddbf2ad566c8bb6
     home: https://homelab.local
@@ -145,12 +145,12 @@ entries:
     name: uptime-kuma
     type: application
     urls:
-    - https://YOUR_GITHUB_USERNAME.github.io/homelab-helm-charts/uptime-kuma-0.1.0.tgz
+    - https://Kenbark42.github.io/homelab-helm/uptime-kuma-0.1.0.tgz
     version: 0.1.0
   vaultwarden:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-11-10T00:43:27.313675149-07:00"
+    created: "2025-11-10T01:05:16.118177637-07:00"
     description: A Helm chart for vaultwarden homelab service
     digest: ee0ca06df868782488346489e8787b3a965b36ff2ad9f7add4a7780f2c413bd5
     home: https://homelab.local
@@ -163,6 +163,6 @@ entries:
     name: vaultwarden
     type: application
     urls:
-    - https://YOUR_GITHUB_USERNAME.github.io/homelab-helm-charts/vaultwarden-0.1.0.tgz
+    - https://Kenbark42.github.io/homelab-helm/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-10T00:43:27.30220568-07:00"
+generated: "2025-11-10T01:05:16.107978122-07:00"
